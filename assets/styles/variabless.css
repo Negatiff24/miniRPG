@@ -1,0 +1,24 @@
+:root {
+    --c-green: #00CC88;
+    --c-green-medium: #89E8C7;
+    --c-green-light: #E5FAF3;
+    --c-green-dark: #00B77A;
+
+    --c-red: #FF3366;
+  --c-red-medium: #FF99B3;
+  --c-red-light: #FFEBF0;
+
+  --c-white: #fff;
+
+  --c-grey: #0F1113;
+  --c-grey-light: #D7D9DB;
+  --c-grey-memium: #98A2A8;
+
+  --c-text: var(--c-grey);
+  
+  --c-success: var(--c-green);
+  --c-success-hover: var(--c-green-dark);
+
+  --c-danger: var(--c-red);
+  --c-danger-hover: var(--c-red-medium);
+}

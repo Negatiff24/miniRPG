@@ -1,0 +1,20 @@
+body, h1, h2, h3, h4, p, ul, ol, li {
+    margin: 0;
+    font-family: "Helvetica";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
