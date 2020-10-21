@@ -1,19 +1,3 @@
-const player = {
-	name: '',
-	class: '',
-	level: 0,
-	xp: 0,
-	baseParams: {
-		hp: null,
-		mp: null
-	},
-	attack: {
-		minDmg: null,
-		maxDmg: null,
-		action: null,
-	}
-};
-
 const game = new Game(gameStageTypeList.NOT_STARTED);
 document.getElementById('js-start').onclick = startGame;
 

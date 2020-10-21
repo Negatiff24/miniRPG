@@ -18,3 +18,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
+input.-error {
+	border-color: red;
+}

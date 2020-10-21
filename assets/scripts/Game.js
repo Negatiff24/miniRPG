@@ -7,7 +7,7 @@ const gameStageTypeList = {
 
 const stageMarkdown = {
 	NOT_STARTED: '<button class="button -success" id="js-start">Start</button>',
-	CREATE_PLAYER: '<h1>Тут будем создавать игорька!</h1>'
+	CREATE_PLAYER: '<h1>Тут будем создавать игорька!</h1><div class="content" id="js-content"></div>'
 }
 
 class Game {
@@ -22,5 +22,8 @@ class Game {
 
 	renderStage() {
 		document.getElementById('js-body').innerHTML = stageMarkdown[this.stage];
+		if (this.stage === gameStageTypeList.CREATE_PLAYER) {
+			this.playerConstructor = new PlayerConstructor();
+		}
 	}
 }
